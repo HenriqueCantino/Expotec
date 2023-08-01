@@ -36,29 +36,48 @@
       </div>
     </nav> <!--Fim Barra de navegação com menu responsivo -->
 
-    <form>
+    <div class="Container">
+      <div class="row">
+        <div class="col-sm-8 m-auto">
+
+
+
+
+
+
+
+          <form>
         
-      <div class="form-group">
-          <label for="email-usuario">email</label>
-          <input class="form-control is-valid" type="text" id="email-usuario" placeholder="Digite seu e-mail">
-          <div class="valid-feedback">
-              Email Valido
-          </div>
+            <div class="form-group">
+                <label for="email-usuario">email</label>
+                <input class="form-control is-valid" type="text" id="email-usuario" placeholder="Digite seu e-mail">
+                <div class="valid-feedback">
+                    Email Valido
+                </div>
+            </div>
+      
+            <div class="form-group">
+                <label for="senha-usuario">Senha</label>
+                <input class="form-control is-invalid"  type="email" id="senha-usuario" placeholder="Digite sua senha">
+                <div class="invalid-feedback">
+                    Senha inválida
+                </div>
+            </div>
+      
+            <input class="btn btn-warning" type="submit" value="Logar">
+      
+          </form>
+        </div>
       </div>
+    </div>
+    
 
-      <div class="form-group">
-          <label for="senha-usuario">Senha</label>
-          <input class="form-control is-invalid"  type="email" id="senha-usuario" placeholder="Digite sua senha">
-          <div class="invalid-feedback">
-              Senha inválida
-          </div>
-      </div>
 
-      <input class="btn btn-warning" type="submit" value="Logar">
 
-    </form>
 
-    <footer style="background-color: gray;" class=" sticky-bottom py-5 ">
+    
+
+    <footer style="background-color: gray;" class=" sticky-top py-5 ">
       <div style="background-color: gray;" class=" w-75 text-white  m-auto">
     
         <div class="d-inline"> @2023 expotec Fortec Praia grande - grupo 7 </div>
@@ -66,10 +85,6 @@
         
       </div>
   </footer> <!--Fim Barra de navegação com menu responsivo -->
-
-     
-
-
 
 
        <!-- Optional JavaScript -->
