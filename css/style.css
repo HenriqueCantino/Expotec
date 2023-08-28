@@ -1,32 +1,120 @@
 body{
 	background-color: #4f758a;
+	padding: 0%;
+	margin: 0;
+}
+
+section{
+	font-size: 1.2em;
+	font-family: "Gill Sans", sans-serif;;
+
+}
+
+.txt_destaque{
+	color: rgba(245, 245, 220, 0.856);
+}
+
+#espaco_top{
+	margin-top: 10px;
+}
+
+#img-logo{
+	width: 6%;
 }
 
 
+
 @media (max-width: 575.98px) {
+	#img-logo{
+		width: 10%;
+	}
+
+	
 	
 }
 
 @media (min-width: 576px) and (max-width: 767.98px){
 	
-
 	
 }
 
 @media (min-width: 768px) and (max-width: 991.98px){
 	
-
-	
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px){
-	
+	#img-logo{
+		width: 5%;
+	}
 }
 
 
 @media (min-width: 1200px){
-	
+	#img-logo{
+		width: 3%;
+	}
+
+	.tamanho-form{
+		width: 50%;
+		
+	}
+
+	.form-group{
+		margin-left: 30%;
+	  }
+
+	  .txt-classico{
+		font-size: 1.5em;
+	}
+
+	 
 }
+
+.centro{
+	text-align: center;
+}
+
+.txt-classico{
+	font-size: 1.1em;
+}
+
+
+.div-esquerda {
+	width: 50%;
+	float: left;
+ }
+
+ .div-direita {
+	text-align: center;
+	float: right;
+	width: 50%;
+}
+
+  #footer {
+	position: absolute;
+	bottom: 0;
+	margin-top: 5%;
+	width: 100%;          /* altura do rodapé */
+  }
+
+  /* Pagina Cadastro */
+
+  form{
+	margin-top: 20%;
+  }
+
+  label{
+	font-size: 1.3em;
+  }
+
+  .btn-logar{
+	letter-spacing: 1.7px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-left: 43%;
+  }
+
+ 
 
 
 
