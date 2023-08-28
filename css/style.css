@@ -4,6 +4,12 @@ body{
 	margin: 0;
 }
 
+
+
+#mapa{
+	width: 100%;
+}
+
 section{
 	font-size: 1.2em;
 	font-family: "Gill Sans", sans-serif;;
@@ -23,51 +29,8 @@ section{
 }
 
 
-
-@media (max-width: 575.98px) {
-	#img-logo{
-		width: 10%;
-	}
-
-	
-	
-}
-
-@media (min-width: 576px) and (max-width: 767.98px){
-	
-	
-}
-
-@media (min-width: 768px) and (max-width: 991.98px){
-	
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px){
-	#img-logo{
-		width: 5%;
-	}
-}
-
-
-@media (min-width: 1200px){
-	#img-logo{
-		width: 3%;
-	}
-
-	.tamanho-form{
-		width: 50%;
-		
-	}
-
-	.form-group{
-		margin-left: 30%;
-	  }
-
-	  .txt-classico{
-		font-size: 1.5em;
-	}
-
-	 
+a {
+	color: aliceblue;
 }
 
 .centro{
@@ -90,14 +53,15 @@ section{
 	width: 50%;
 }
 
-  #footer {
-	position: absolute;
-	bottom: 0;
-	margin-top: 5%;
-	width: 100%;          /* altura do rodapé */
-  }
+footer{
+	background: #2c2c2c;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
 
   /* Pagina Cadastro */
+
 
   form{
 	margin-top: 20%;
@@ -113,6 +77,69 @@ section{
 	font-weight: 700;
 	margin-left: 43%;
   }
+
+
+  /* Media Queries  */
+
+
+  @media (max-width: 575.98px) {
+	#img-logo{
+		width: 10%;
+	}
+
+	
+	
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+	
+	
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+	
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+	#img-logo{
+		width: 5%;
+	}
+
+	
+}
+
+
+@media (min-width: 1200px){
+	#img-logo{
+		width: 3%;
+	}
+
+	.tamanho-form{
+		width: 50%;
+		
+	}
+
+	.form-group{
+		margin-left: 30%;
+	  }
+
+	  .txt-classico{
+		font-size: 1.3em;
+	}
+
+	#img-pgprincipal{
+		width: 40%;
+		margin-left: 2px;
+	}
+
+	#img-inc-sec{
+		width: 90%;
+		margin-left: 30px;
+	}
+
+	
+	 
+}
 
  
 
