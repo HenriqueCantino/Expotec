@@ -1,6 +1,6 @@
 body{
-	background-color: #4f758a;
-	padding: 0%;
+	background-color: #b1b0b0;
+	padding: 0;
 	margin: 0;
 }
 
@@ -17,7 +17,7 @@ section{
 }
 
 .txt_destaque{
-	color: rgba(245, 245, 220, 0.856);
+	color: #4152c0;
 }
 
 #espaco_top{
@@ -53,8 +53,13 @@ a {
 	width: 50%;
 }
 
+.cor_teste{
+	background:#4f758a;
+}
+
 footer{
-	background: #2c2c2c;
+	background:#4f758a;
+/*	background: #2c2c2c; */
 	padding: 50px 0px 20px 0px;
 	position: relative;
 }
